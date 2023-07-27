@@ -1,0 +1,32 @@
+'''IsEvenOdd
+
+Write a program that reads an integer from the user and display a message indicating whether the integer is even or odd.
+
+Input Format
+
+A single line consisting of an integer
+
+Constraints
+
+None
+
+Output Format
+
+A single line consisting of "EVEN" or "ODD" message.
+
+Sample Input 0
+
+2
+Sample Output 0
+
+ 
+'''
+
+
+
+
+
+
+
+x=int(input()) 
+print("EVEN") if(x%2==0) else print("ODD")
